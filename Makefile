@@ -1,7 +1,16 @@
-all: run
+all: dev
 
-run:
-	go run cmd/alfred-bot.go
+dev:
+	go run main.go
+
+test:
+	go test ./...
 
 build:
-	go build cmd/alfred-bot.go
+	go build main.go
+
+deploy:
+	gcloud app deploy
+
+log:
+	gcloud app logs tail -s default

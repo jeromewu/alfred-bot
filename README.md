@@ -1,4 +1,4 @@
 Alfred Bot
 ==========
 
-A personal Whatsapp chatbot for organizing your life / work.
+A personal LINE chatbot for organizing life / work.
